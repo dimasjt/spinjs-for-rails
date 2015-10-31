@@ -5,6 +5,6 @@ jQuery(function(){
     spin.hide();
   })
 
-  jQuery(document).on('page:fetch', function() { spin.fadeIn() });
+  jQuery(document).on('page:fetch', function() { spin.show() });
   jQuery(document).on('page:change', function() { spin.fadeOut() });
 })
